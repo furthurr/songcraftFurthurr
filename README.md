@@ -16,6 +16,15 @@ docs/                       Documentación de referencia (18 módulos)
 Skills/
 ├── letra-cancion/          Skill agnóstica de composición de letras
 └── preparacion-suno/       Skill agnóstica de adaptación para Suno
+
+.opencode/agents/
+└── songcraft.md            Agente especializado para usar ambas skills
+
+opencode-songcraft/         Distribución autocontenida e instalable para OpenCode
+├── agent/                  Agente primario Songcraft
+├── skills/                 Skills y los 18 módulos de conocimiento
+├── install.sh              Instalación global o por proyecto
+└── uninstall.sh            Desinstalación segura
 ```
 
 ## Qué resuelve
@@ -32,11 +41,45 @@ Skills/
 3. Lee `Skills/preparacion-suno/SKILL.md` para la adaptación a Suno.
 4. Pasa los archivos relevantes como contexto a tu IA preferida.
 
+## Agente para OpenCode
+
+El repositorio incluye el agente primario `songcraft`, limitado a la creación, revisión y adaptación
+de letras, dirección musical y preparación para Suno.
+
+1. Abre este repositorio como proyecto en OpenCode.
+2. Reinicia OpenCode si acabas de clonar el repositorio o actualizar su configuración.
+3. Selecciona `Songcraft` en el selector de agentes.
+4. Describe una idea, pega una letra o pide preparar una canción para Suno.
+
+El agente carga `letra-cancion` durante la composición y `preparacion-suno` cuando ya existe una letra
+viable. Para un flujo completo, primero entrega y valida la canción y después genera los tres bloques
+orientados a Suno.
+
+### Instalación directa
+
+La carpeta [`opencode-songcraft/`](opencode-songcraft/README.md) contiene todo lo necesario para usar
+Songcraft en cualquier instalación de OpenCode, sin depender de la estructura del repositorio.
+
+Instalación global para todos tus proyectos:
+
+```bash
+./opencode-songcraft/install.sh
+```
+
+Instalación limitada a un proyecto:
+
+```bash
+./opencode-songcraft/install.sh --project /ruta/al/proyecto
+```
+
+Después de instalar, reinicia OpenCode y selecciona `Songcraft`.
+
 ## Punto de entrada rápido
 
 - [Documentación de referencia](docs/README.md)
 - [Skill de composición de letras](Skills/letra-cancion/README.md)
 - [Skill de preparación para Suno](Skills/preparacion-suno/README.md)
+- [Paquete instalable para OpenCode](opencode-songcraft/README.md)
 
 ## Autor
 

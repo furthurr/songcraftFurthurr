@@ -20,13 +20,13 @@ está definida, debe solicitar esos datos o remitir conceptualmente a `../letra-
 
 Consulta según la tarea:
 
-- `../../docs/11-suno-prompting-de-estilo.md`
-- `../../docs/12-suno-letras-y-metatags.md`
-- `../../docs/13-suno-plantillas-y-experimentacion.md`
-- `../../docs/14-suno-fuentes-y-nivel-de-confianza.md`
-- `../../docs/15-suno-pro-v5-5-referencia-actual.md`
-- `../../docs/16-suno-pro-v5-5-flujos-recomendados.md`
-- `../../docs/17-suno-pro-v5-5-calidad-y-limites.md`
+- `../songcraft-docs/11-suno-prompting-de-estilo.md`
+- `../songcraft-docs/12-suno-letras-y-metatags.md`
+- `../songcraft-docs/13-suno-plantillas-y-experimentacion.md`
+- `../songcraft-docs/14-suno-fuentes-y-nivel-de-confianza.md`
+- `../songcraft-docs/15-suno-pro-v5-5-referencia-actual.md`
+- `../songcraft-docs/16-suno-pro-v5-5-flujos-recomendados.md`
+- `../songcraft-docs/17-suno-pro-v5-5-calidad-y-limites.md`
 
 Usa los documentos `00`–`10` solo si necesitas comprobar métrica, rima, prosodia o estructura tras
 un cambio de letra.

@@ -13,7 +13,7 @@ Guiar a una persona para crear o revisar una letra de canción que sea coherente
 estructura, métrica, rima, ritmo, prosodia, cantabilidad y estilo**. La skill es de composición
 musical: no supone una plataforma de generación ni prepara prompts por defecto.
 
-La teoría de referencia está en `../../docs/README.md`. Carga solo los documentos relevantes a la
+La teoría de referencia está en `../songcraft-docs/README.md`. Carga solo los documentos relevantes a la
 tarea para no mezclar reglas de géneros o fases distintas.
 
 ## Activación conceptual
