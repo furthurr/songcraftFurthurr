@@ -83,11 +83,11 @@ Después de instalar, reinicia OpenCode y selecciona `Songcraft`.
 
 ## Autor
 
-**Pedro G. V.** @furthurr
+<a href="https://furthurr.github.io/" target="_blank" rel="noopener noreferrer">Pedro G. V. @furthurr</a>
 
-- GitHub: https://github.com/furthurr
-- Email: pedrogvas@gmail.com
+- **GitHub:** https://github.com/furthurr
+- **Email:** pedrogvas@gmail.com
 
 ## Licencia
 
-Apache-2.0
+MIT
